@@ -33,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Title = findViewById(R.id.Title);
         Background = findViewById(R.id.Background);
-        //Peticion no funciona revisar
+        //Peticion no funciona revisar 22
         Retrofit retrofit = new Retrofit.Builder().baseUrl("https://superapi.netlify.app/api/")
                 .addConverterFactory(ScalarsConverterFactory.create()).addConverterFactory(GsonConverterFactory.create()).build();
 
